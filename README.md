@@ -14,7 +14,7 @@ A console-based Java application demonstrating object-oriented programming, sepa
 ## Project Structure
 
 ```text
-src/bankaccount/
+bankaccount/
 |-- Main.java
 |-- model/
 |   `-- BankAccount.java
@@ -45,7 +45,7 @@ The project was tested with JDK 21.
 From the repository root:
 
 ```powershell
-$sourceFiles = Get-ChildItem -Recurse -Filter *.java src
+$sourceFiles = Get-ChildItem -Recurse -Filter *.java bankaccount
 javac -d out $sourceFiles.FullName
 java -cp out bankaccount.Main
 ```
@@ -56,7 +56,7 @@ From the repository root:
 
 ```bash
 mkdir -p out
-javac -d out $(find src -name "*.java")
+javac -d out $(find bankaccount -name "*.java")
 java -cp out bankaccount.Main
 ```
 
