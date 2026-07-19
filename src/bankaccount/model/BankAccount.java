@@ -1,7 +1,7 @@
-package com.sabbagh.bankaccount.model;
+package bankaccount.model;
 
-import com.sabbagh.bankaccount.exception.InsufficientBalanceException;
-import com.sabbagh.bankaccount.exception.InvalidAmountException;
+import bankaccount.exception.InsufficientBalanceException;
+import bankaccount.exception.InvalidAmountException;
 
 public class BankAccount {
     private String accountNumber;

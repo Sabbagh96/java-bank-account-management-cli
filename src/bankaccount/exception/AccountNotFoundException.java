@@ -1,4 +1,4 @@
-package com.sabbagh.bankaccount.exception;
+package bankaccount.exception;
 
 public class AccountNotFoundException extends RuntimeException {
     public AccountNotFoundException(String message) {

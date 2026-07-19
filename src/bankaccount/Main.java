@@ -1,10 +1,10 @@
-package com.sabbagh.bankaccount;
+package bankaccount;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.sabbagh.bankaccount.model.BankAccount;
-import com.sabbagh.bankaccount.service.BankService;
+import bankaccount.model.BankAccount;
+import bankaccount.service.BankService;
 
 public class Main {
     public static void main(String[] args) {

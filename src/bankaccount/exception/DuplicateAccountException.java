@@ -1,4 +1,4 @@
-package com.sabbagh.bankaccount.exception;
+package bankaccount.exception;
 
 public class DuplicateAccountException extends RuntimeException {
     public DuplicateAccountException(String message) {

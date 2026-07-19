@@ -1,10 +1,10 @@
-package com.sabbagh.bankaccount.service;
+package bankaccount.service;
 
 import java.util.ArrayList;
 
-import com.sabbagh.bankaccount.exception.AccountNotFoundException;
-import com.sabbagh.bankaccount.exception.DuplicateAccountException;
-import com.sabbagh.bankaccount.model.BankAccount;
+import bankaccount.exception.AccountNotFoundException;
+import bankaccount.exception.DuplicateAccountException;
+import bankaccount.model.BankAccount;
 
 public class BankService {
     private ArrayList<BankAccount> accounts;

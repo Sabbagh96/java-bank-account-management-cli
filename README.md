@@ -1,4 +1,4 @@
-# BankAccount
+# Bank Account Management CLI
 
 A console-based Java application demonstrating object-oriented programming, separated responsibilities, collections, validation, and custom exception handling.
 
@@ -14,7 +14,7 @@ A console-based Java application demonstrating object-oriented programming, sepa
 ## Project Structure
 
 ```text
-src/com/sabbagh/bankaccount/
+src/bankaccount/
 |-- Main.java
 |-- model/
 |   `-- BankAccount.java
@@ -47,7 +47,7 @@ From the repository root:
 ```powershell
 $sourceFiles = Get-ChildItem -Recurse -Filter *.java src
 javac -d out $sourceFiles.FullName
-java -cp out com.sabbagh.bankaccount.Main
+java -cp out bankaccount.Main
 ```
 
 ## Run on macOS or Linux
@@ -57,7 +57,7 @@ From the repository root:
 ```bash
 mkdir -p out
 javac -d out $(find src -name "*.java")
-java -cp out com.sabbagh.bankaccount.Main
+java -cp out bankaccount.Main
 ```
 
 ## Menu
