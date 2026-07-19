@@ -1,4 +1,4 @@
-# Bank Account Management CLI
+# BankAccount
 
 A console-based Java application demonstrating object-oriented programming, separated responsibilities, collections, validation, and custom exception handling.
 
